@@ -23,6 +23,9 @@ Run the app on the active Android emulator:
 flutter run -d emulator-5554
 ```
 
+flutter run -d ZA222L5CX2
+
+
 ## VS Code Debug
 
 This repo includes `.vscode/launch.json` and `.vscode/tasks.json` for Android debug runs.

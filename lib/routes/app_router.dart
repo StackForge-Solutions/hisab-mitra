@@ -8,7 +8,6 @@ import '../features/landing/presentation/landing_page.dart';
 import '../features/parsed_invoice/presentation/parsed_invoice_page.dart';
 import '../features/parsing/presentation/parsing_loader_page.dart';
 import '../features/place_of_supply/presentation/place_of_supply_page.dart';
-import '../features/preload/presentation/preload_screen.dart';
 import '../features/purchase/presentation/purchase_page.dart';
 import '../features/sales_transaction/presentation/sales_transaction_page.dart';
 import '../features/splash/presentation/splash_screen.dart';
@@ -18,7 +17,6 @@ class AppRoutes {
   const AppRoutes._();
 
   static const splash = '/';
-  static const preload = '/preload';
   static const landing = '/landing';
   static const salesTransaction = '/sales-transaction';
   static const purchase = '/purchase';
@@ -38,10 +36,6 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: AppRoutes.splash,
         builder: (context, state) => const SplashScreen(),
-      ),
-      GoRoute(
-        path: AppRoutes.preload,
-        builder: (context, state) => const PreloadScreen(),
       ),
       GoRoute(
         path: AppRoutes.landing,
