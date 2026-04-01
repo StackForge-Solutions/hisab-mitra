@@ -10,5 +10,5 @@
         android:width="180dp"
         android:height="180dp"
         android:gravity="center"
-        android:drawable="@drawable/launch_splash_icon_image" />
+        android:drawable="@drawable/splash_brand_icon" />
 </layer-list>
